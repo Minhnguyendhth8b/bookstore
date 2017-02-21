@@ -5,10 +5,13 @@
     <a class="navbar-brand" href="#">Navbar</a>
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <form role="form-inline"> 
+      <form role="form" class="form-inline"> 
         <div class="form-group has-feedback has-feedback-left">
-          <input type="text" class="form-control" placeholder="Username" />
-          <i class="form-control-feedback glyphicon glyphicon-user"></i>
+          <label class="control-label sr-only">Username</label>
+          <div class="inline-feedback">
+            <input type="text" class="form-control" placeholder="Username" />
+            <i class="form-control-feedback fa fa-user"></i>
+          </div>
         </div>
       </form>
       <ul class="navbar-nav mr-auto">
